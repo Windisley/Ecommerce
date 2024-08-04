@@ -1,0 +1,208 @@
+:root{
+    --prymary-cor: #BF0F30;
+    --contrast-prymary: #1A90D9;
+    --secundary-cor: #F2A30F;
+    --shadow-secundary: #F28C0F;
+    --red-cor: #F23E16;
+    --color-white:#F2F2F2;
+}
+
+
+header .boxcart i{
+    color: var(--secundary-cor);
+    font-size: 1.5rem;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 467px) {
+    header .boxlogo{
+        display: flex;
+        pointer-events:visible;
+         
+    }
+
+       header .boxlogo a span{
+        font-size: 1.1rem;
+        color: var(--secundary-cor);
+       
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 1s ease-in-out;
+        position: relative;
+        text-wrap: nowrap;
+       }
+}
+
+section{
+   width: 100%;
+   margin: 0 auto;
+   min-height: 100vh;
+   overflow: hidden;
+   position: relative;
+   background-color: var(--color-white);
+
+ }
+ 
+
+main{
+ width: 100%;
+ min-height: calc(100vh - 10rem);
+ margin: 0 auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  margin-bottom: 1rem;
+ margin-top: 1rem;
+
+
+ }
+
+ main .containerpd{
+ width: 90%;
+ min-height: 400px;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ 
+ padding: 1rem;
+ border: 1px solid #aaa;
+ transform-origin: center center;
+
+ }
+
+ main .containerpd div:nth-child(2){
+   padding: 1rem;
+ }
+
+ main .containerpd .boximgpd{
+  width: 100%;
+  max-width: 350px;
+  position: relative;
+  transform: scale(1);
+  transform-origin: center center;
+  background-color: transparent;
+ }
+ main .containerpd .boximgpd img{
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  object-fit: contain;
+  object-position: center center;
+  cursor:zoom-in ;
+  border: 2px solid #333;
+  transform-origin: center center;
+  padding: 12px;
+  background-clip: content-box;
+  
+ }
+
+ main .containerpd .boxpreçopd div{
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+ 
+ }
+
+ 
+ main .containerpd .boxpreçopd div h1, div p, div p span{
+    text-align: start;
+    max-width: 400px;
+    min-height: 100%;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: .2px;
+    font-size: 1.3rem }
+
+  main .containerpd .boxpreçopd .preçoctpd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    flex-direction: column;
+  }
+ 
+   main .containerpd .boxpreçopd .star{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2em;
+     
+   }
+
+   main .containerpd .boxpreçopd .star .bi-star-fill{
+     font-size: 1.4rem;
+     text-align: start;
+     color: #F2A30F;
+     cursor: pointer;
+    
+     
+   }
+   
+   main .containerpd .boxpreçopd div h1{
+     text-transform: uppercase;
+   }
+
+ main .containerpd .boxbuttonspd div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 1rem;
+ }
+
+ 
+ main .containerpd .boxbuttonspd button{
+    width: 100%; 
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 8px 24px;
+    border: 1px solid var(--prymary-cor);
+    background-color: var(--red-cor);
+    color: var(--secundary-cor);
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .6s ease-in-out;
+    text-wrap: nowrap;
+    
+   }
+
+   main .containerpd .boxbuttonspd button:hover{
+     color: white;
+     background-image: linear-gradient(to left, var(--prymary-cor), var(--red-cor));
+     }
+   
+   main .containerpd .boxbuttonspd .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+  
+   }
+
+   main .containerpd .boxbuttonspd .icon i, .icon  span{
+    color: var(--contrast-prymary);
+    font-size: 1rem;
+    text-align: center;
+     }
+   
+
+
+
+
+
+
+
+
+ 
+
+
+
+

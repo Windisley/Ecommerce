@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buy.css">
+    <script src="buy.js" defer></script>
+    <title>Pagina De Compra</title>
+</head>
+
+<body>
+
+    <section id="sectionbuy">
+        <header>
+            <div class="boxlogo">
+                <a href="./produto.html">
+                    <span>
+                        e-commerce
+                    </span>
+                </a>
+                <i class="bi bi-shop"></i>
+            </div>
+        </header>
+
+        <main id="mainbuy">
+            <div class="containerbuy">
+                <div class="boxformpayment">
+                   <p>
+                     forma de pagamento
+                   </p>
+                   <div class="iconspayment">
+                      <img src="./imgs/master.jpg" alt="forma de pagamento via mastercard">
+                      <img src="./imgs/mercadopago.png" alt="forma de pagamento via mercado pago">
+                      <img src="./imgs/boleto.png" alt="forma de pagamento via boleto">
+                   </div>
+                </div>
+
+                <div class="boxnamecard">
+                  <input type="text" id="namecarton" placeholder="Nome no cartão" required>
+                </div>
+
+                <div class="boxnumbercard">
+               
+
+                    <div>
+                        <input type="number" name="numbercard" id="numbercard" placeholder="Numero no cartão" required>
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <div class="boxexpirationandcvv">
+                   <div>
+                     <label for="expiration"></label>
+                     <input type="date" name="expiration" id="expiration" required>
+                   </div>
+                   <div>
+                    
+                    <input type="number" name="cvv" id="cvv" placeholder="cvv" required>
+                   </div>
+                </div>
+
+                <div class="boxbuttonpay">
+                  <button id="buttonpaymentbuy" type="submit">
+                    confirmar pagamento
+                  </button>
+                  
+                </div>
+
+            </div>
+
+
+        </main>
+
+    </section>
+
+</body>
+
+</html>

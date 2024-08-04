@@ -1,0 +1,161 @@
+:root{
+    --prymary-cor: #BF0F30;
+    --contrast-prymary: #1A90D9;
+    --secundary-cor: #F2A30F;
+    --shadow-secundary: #F28C0F;
+    --red-cor: #F23E16;
+    --color-white:#F2F2F2;
+}
+
+ #sectionbuy{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+ }
+
+#mainbuy{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+
+#mainbuy .containerbuy{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 300px;
+    min-height: 500px;
+    border: 1px solid #aaa;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+}
+
+#mainbuy .containerbuy .boxformpayment{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ 
+
+}
+
+#mainbuy .containerbuy .boxformpayment p{
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    text-transform: capitalize;
+    letter-spacing: .2px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+   
+   }
+
+   #mainbuy .containerbuy .boxformpayment .iconspayment{
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+   }
+
+   #mainbuy .containerbuy .boxformpayment .iconspayment img{
+    width: 100%;
+    max-width: 80px;
+    min-width: 50px;
+    margin: 0 auto;
+    border: 1px solid;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+   }
+
+   #mainbuy .containerbuy .boxformpayment .iconspayment img:hover{
+    border: 1px solid var(--secundary-cor);
+   }
+
+   .boxnamecard, .boxnumbercard, .boxnumbercard{
+    margin-top: 1rem;
+   }
+
+
+   .boxnamecard input, .boxnumbercard input, .boxexpirationandcvv input{
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    margin: 0 auto;
+    padding: 6px 18px;
+    border: 1px solid;
+    
+   }
+
+   .boxexpirationandcvv input:nth-child(1){
+    margin-top: 1rem;
+   }
+
+   .boxnamecard input::placeholder, .boxnumbercard input::placeholder, .boxexpirationandcvv input::placeholder{
+   font-size: .7rem;
+   text-align: start;
+   letter-spacing: .1px;
+    
+   }
+
+   input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+    -ms-appearance: none;
+  }
+
+
+  .boxbuttonpay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .boxbuttonpay button{
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    margin: 0 auto;
+    padding: 6px 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid var(--prymary-cor);
+    background-color: var(--red-cor);
+    color: var(--color-white);
+    cursor: pointer;
+    letter-spacing: .2px;
+    transition: .5s ease-in-out;
+  }
+
+  .boxbuttonpay button:hover{
+    color: white;
+    background-image: linear-gradient(to left, var(--prymary-cor), var(--red-cor));
+  }
+
+
+
+
+
+
+
+
+
+
